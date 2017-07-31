@@ -1,0 +1,52 @@
+-------------------------------------------------------------------------------
+Test set: steps.RunCukesTest
+-------------------------------------------------------------------------------
+Tests run: 15, Failures: 0, Errors: 4, Skipped: 2, Time elapsed: 52.927 sec <<< FAILURE! - in steps.RunCukesTest
+Then I should be able to post the status message(| hemantojhaa@gmail.com | India@100 | Hemant |)  Time elapsed: 0.033 sec  <<< ERROR!
+org.openqa.selenium.WebDriverException: 
+unknown error: jQuery is not defined
+  (Session info: chrome=59.0.3071.115)
+  (Driver info: chromedriver=2.29.461585 (0be2cd95f834e9ee7c46bcc7cf405b483f5ae83b),platform=Mac OS X 10.12.5 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 448 milliseconds
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'hojhas-MacBook-Pro.local', ip: 'fe80:0:0:0:1ce7:b4c3:c6b0:5a49%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.12.5', java.version: '1.8.0_77'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.29.461585 (0be2cd95f834e9ee7c46bcc7cf405b483f5ae83b), userDataDir=/var/folders/bl/fr6nn8sj7y3_4pjmhtnx6f1m0000gn/T/.org.chromium.Chromium.swkxkC}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=59.0.3071.115, platform=MAC, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
+Session ID: 876a5d407fc35b31a097d59ef88221b1
+
+| hemantojhaa@gmail.com | India@100 | Hemant |  Time elapsed: 0.035 sec  <<< ERROR!
+org.openqa.selenium.WebDriverException: 
+unknown error: jQuery is not defined
+  (Session info: chrome=59.0.3071.115)
+  (Driver info: chromedriver=2.29.461585 (0be2cd95f834e9ee7c46bcc7cf405b483f5ae83b),platform=Mac OS X 10.12.5 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 448 milliseconds
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'hojhas-MacBook-Pro.local', ip: 'fe80:0:0:0:1ce7:b4c3:c6b0:5a49%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.12.5', java.version: '1.8.0_77'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.29.461585 (0be2cd95f834e9ee7c46bcc7cf405b483f5ae83b), userDataDir=/var/folders/bl/fr6nn8sj7y3_4pjmhtnx6f1m0000gn/T/.org.chromium.Chromium.swkxkC}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=59.0.3071.115, platform=MAC, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
+Session ID: 876a5d407fc35b31a097d59ef88221b1
+
+And I press submit(| 3 | Health | hemant |)  Time elapsed: 0.002 sec  <<< ERROR!
+org.openqa.selenium.WebDriverException: 
+unknown error: Element <input type="submit" class="btn blue" value="Submit"> is not clickable at point (717, 584). Other element would receive the click: <span class="head-content">...</span>
+  (Session info: chrome=59.0.3071.115)
+  (Driver info: chromedriver=2.29.461585 (0be2cd95f834e9ee7c46bcc7cf405b483f5ae83b),platform=Mac OS X 10.12.5 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 57 milliseconds
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'hojhas-MacBook-Pro.local', ip: 'fe80:0:0:0:1ce7:b4c3:c6b0:5a49%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.12.5', java.version: '1.8.0_77'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.29.461585 (0be2cd95f834e9ee7c46bcc7cf405b483f5ae83b), userDataDir=/var/folders/bl/fr6nn8sj7y3_4pjmhtnx6f1m0000gn/T/.org.chromium.Chromium.tQuzpZ}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=59.0.3071.115, platform=MAC, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
+Session ID: 22b35ae6819eb57e79d9c0dc773fa5cd
+
+| 3 | Health | hemant |  Time elapsed: 0.022 sec  <<< ERROR!
+org.openqa.selenium.WebDriverException: 
+unknown error: Element <input type="submit" class="btn blue" value="Submit"> is not clickable at point (717, 584). Other element would receive the click: <span class="head-content">...</span>
+  (Session info: chrome=59.0.3071.115)
+  (Driver info: chromedriver=2.29.461585 (0be2cd95f834e9ee7c46bcc7cf405b483f5ae83b),platform=Mac OS X 10.12.5 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 57 milliseconds
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'hojhas-MacBook-Pro.local', ip: 'fe80:0:0:0:1ce7:b4c3:c6b0:5a49%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.12.5', java.version: '1.8.0_77'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.29.461585 (0be2cd95f834e9ee7c46bcc7cf405b483f5ae83b), userDataDir=/var/folders/bl/fr6nn8sj7y3_4pjmhtnx6f1m0000gn/T/.org.chromium.Chromium.tQuzpZ}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=59.0.3071.115, platform=MAC, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
+Session ID: 22b35ae6819eb57e79d9c0dc773fa5cd
+

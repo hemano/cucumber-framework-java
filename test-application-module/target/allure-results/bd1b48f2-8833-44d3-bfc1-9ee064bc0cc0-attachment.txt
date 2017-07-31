@@ -1,0 +1,79 @@
+2017-07-31 20:01:55 INFO  DefaultTestContextBootstrapper:260 - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+2017-07-31 20:01:55 INFO  DefaultTestContextBootstrapper:209 - Could not instantiate TestExecutionListener [org.springframework.test.context.web.ServletTestExecutionListener]. Specify custom listener classes or make the default listener classes (and their required dependencies) available. Offending class: [org/springframework/web/context/request/RequestAttributes]
+2017-07-31 20:01:55 INFO  DefaultTestContextBootstrapper:187 - Using TestExecutionListeners: [org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@7b10472e, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@70e5737f, org.springframework.test.context.support.DirtiesContextTestExecutionListener@9746157, org.springframework.test.context.transaction.TransactionalTestExecutionListener@10ad95cd, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@69fd99c1]
+2017-07-31 20:01:57 INFO  XmlBeanDefinitionReader:317 - Loading XML bean definitions from class path resource [Cucumber.xml]
+2017-07-31 20:01:58 INFO  XmlBeanDefinitionReader:317 - Loading XML bean definitions from URL [file:/Users/hemantojha/JavaProjects/CucumberFramework/cucumber-framework-java/test-application-module/target/test-classes/applicationContext.xml]
+2017-07-31 20:01:58 INFO  GenericApplicationContext:581 - Refreshing org.springframework.context.support.GenericApplicationContext@91a1005: startup date [Mon Jul 31 20:01:58 IST 2017]; root of context hierarchy
+2017-07-31 20:01:58 INFO  AutowiredAnnotationBeanPostProcessor:155 - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2017-07-31 20:01:59 INFO  StartingSteps:128 - ***************************************************************************
+2017-07-31 20:01:59 INFO  StartingSteps:128 - Executing Scenario : I should be able to post a status message right after login to Facebook account
+2017-07-31 20:01:59 INFO  StartingSteps:128 - ***************************************************************************
+2017-07-31 20:02:06 INFO  SessionContextManager:256 - 
+Attribute set KEY : [execution_type] 
+ VALUE : [browser]
+2017-07-31 20:02:11 INFO  BasePageObject:52 - Entered the user name
+2017-07-31 20:02:11 INFO  BasePageObject:52 - Entered the password
+2017-07-31 20:02:21 INFO  BasePageObject:52 - Clicked on Log in button
+2017-07-31 20:02:22 INFO  BasePageObject:52 - Entered the status text as 
+2017-07-31 20:02:25 INFO  BasePageObject:52 - Click on Post button
+2017-07-31 20:02:31 INFO  WebDriverThread:137 - Closing the driver...
+2017-07-31 20:03:32 INFO  DefaultTestContextBootstrapper:260 - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+2017-07-31 20:03:32 INFO  DefaultTestContextBootstrapper:209 - Could not instantiate TestExecutionListener [org.springframework.test.context.web.ServletTestExecutionListener]. Specify custom listener classes or make the default listener classes (and their required dependencies) available. Offending class: [org/springframework/web/context/request/RequestAttributes]
+2017-07-31 20:03:32 INFO  DefaultTestContextBootstrapper:187 - Using TestExecutionListeners: [org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@7a6a4327, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@56290dd0, org.springframework.test.context.support.DirtiesContextTestExecutionListener@1238c363, org.springframework.test.context.transaction.TransactionalTestExecutionListener@53a75180, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@7bfc43a8]
+2017-07-31 20:03:32 INFO  DefaultListableBeanFactory:874 - Replacing scope 'cucumber-glue' from [cucumber.runtime.java.spring.GlueCodeScope@31d26296] to [cucumber.runtime.java.spring.GlueCodeScope@58100e7d]
+2017-07-31 20:03:32 INFO  StartingSteps:128 - ***************************************************************************
+2017-07-31 20:03:32 INFO  StartingSteps:128 - Executing Scenario : I should be able to submit the review
+2017-07-31 20:03:32 INFO  StartingSteps:128 - ***************************************************************************
+2017-07-31 20:03:36 INFO  SessionContextManager:256 - 
+Attribute set KEY : [execution_type] 
+ VALUE : [browser]
+2017-07-31 20:03:38 INFO  GenericApplicationContext:982 - Closing org.springframework.context.support.GenericApplicationContext@91a1005: startup date [Mon Jul 31 20:01:58 IST 2017]; root of context hierarchy
+2017-07-31 20:03:52 INFO  DefaultTestContextBootstrapper:260 - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+2017-07-31 20:03:52 INFO  DefaultTestContextBootstrapper:209 - Could not instantiate TestExecutionListener [org.springframework.test.context.web.ServletTestExecutionListener]. Specify custom listener classes or make the default listener classes (and their required dependencies) available. Offending class: [org/springframework/web/context/request/RequestAttributes]
+2017-07-31 20:03:52 INFO  DefaultTestContextBootstrapper:187 - Using TestExecutionListeners: [org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@e4ef4c0, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@5ca8bd01, org.springframework.test.context.support.DirtiesContextTestExecutionListener@7b10472e, org.springframework.test.context.transaction.TransactionalTestExecutionListener@70e5737f, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@9746157]
+2017-07-31 20:03:53 INFO  XmlBeanDefinitionReader:317 - Loading XML bean definitions from class path resource [Cucumber.xml]
+2017-07-31 20:03:54 INFO  XmlBeanDefinitionReader:317 - Loading XML bean definitions from URL [file:/Users/hemantojha/JavaProjects/CucumberFramework/cucumber-framework-java/test-application-module/target/test-classes/applicationContext.xml]
+2017-07-31 20:03:54 INFO  GenericApplicationContext:581 - Refreshing org.springframework.context.support.GenericApplicationContext@352ce817: startup date [Mon Jul 31 20:03:54 IST 2017]; root of context hierarchy
+2017-07-31 20:03:54 INFO  AutowiredAnnotationBeanPostProcessor:155 - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2017-07-31 20:03:55 INFO  StartingSteps:128 - ***************************************************************************
+2017-07-31 20:03:55 INFO  StartingSteps:128 - Executing Scenario : I should be able to post a status message right after login to Facebook account
+2017-07-31 20:03:55 INFO  StartingSteps:128 - ***************************************************************************
+2017-07-31 20:04:01 INFO  SessionContextManager:256 - 
+Attribute set KEY : [execution_type] 
+ VALUE : [browser]
+2017-07-31 20:04:05 INFO  BasePageObject:52 - Entered the user name
+2017-07-31 20:04:05 INFO  BasePageObject:52 - Entered the password
+2017-07-31 20:04:13 INFO  BasePageObject:52 - Clicked on Log in button
+2017-07-31 20:04:15 INFO  BasePageObject:52 - Entered the status text as 
+2017-07-31 20:04:17 INFO  BasePageObject:52 - Click on Post button
+2017-07-31 20:04:23 INFO  WebDriverThread:138 - Closing the driver...
+2017-07-31 20:04:23 INFO  DefaultTestContextBootstrapper:260 - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+2017-07-31 20:04:23 INFO  DefaultTestContextBootstrapper:209 - Could not instantiate TestExecutionListener [org.springframework.test.context.web.ServletTestExecutionListener]. Specify custom listener classes or make the default listener classes (and their required dependencies) available. Offending class: [org/springframework/web/context/request/RequestAttributes]
+2017-07-31 20:04:23 INFO  DefaultTestContextBootstrapper:187 - Using TestExecutionListeners: [org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@1238c363, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@53a75180, org.springframework.test.context.support.DirtiesContextTestExecutionListener@7bfc43a8, org.springframework.test.context.transaction.TransactionalTestExecutionListener@6525968a, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@31d26296]
+2017-07-31 20:04:23 INFO  DefaultListableBeanFactory:874 - Replacing scope 'cucumber-glue' from [cucumber.runtime.java.spring.GlueCodeScope@41e8e7d4] to [cucumber.runtime.java.spring.GlueCodeScope@830b8a5]
+2017-07-31 20:04:23 INFO  StartingSteps:128 - ***************************************************************************
+2017-07-31 20:04:23 INFO  StartingSteps:128 - Executing Scenario : I should be able to submit the review
+2017-07-31 20:04:23 INFO  StartingSteps:128 - ***************************************************************************
+2017-07-31 20:04:23 INFO  SessionContextManager:256 - 
+Attribute set KEY : [execution_type] 
+ VALUE : [browser]
+2017-07-31 20:04:23 INFO  WebDriverThread:138 - Closing the driver...
+2017-07-31 20:04:25 INFO  GenericApplicationContext:982 - Closing org.springframework.context.support.GenericApplicationContext@352ce817: startup date [Mon Jul 31 20:03:54 IST 2017]; root of context hierarchy
+2017-07-31 20:05:14 INFO  DefaultTestContextBootstrapper:260 - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+2017-07-31 20:05:14 INFO  DefaultTestContextBootstrapper:209 - Could not instantiate TestExecutionListener [org.springframework.test.context.web.ServletTestExecutionListener]. Specify custom listener classes or make the default listener classes (and their required dependencies) available. Offending class: [org/springframework/web/context/request/RequestAttributes]
+2017-07-31 20:05:14 INFO  DefaultTestContextBootstrapper:187 - Using TestExecutionListeners: [org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@7b10472e, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@70e5737f, org.springframework.test.context.support.DirtiesContextTestExecutionListener@9746157, org.springframework.test.context.transaction.TransactionalTestExecutionListener@10ad95cd, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@69fd99c1]
+2017-07-31 20:05:15 INFO  XmlBeanDefinitionReader:317 - Loading XML bean definitions from class path resource [Cucumber.xml]
+2017-07-31 20:05:16 INFO  XmlBeanDefinitionReader:317 - Loading XML bean definitions from URL [file:/Users/hemantojha/JavaProjects/CucumberFramework/cucumber-framework-java/test-application-module/target/test-classes/applicationContext.xml]
+2017-07-31 20:05:16 INFO  GenericApplicationContext:581 - Refreshing org.springframework.context.support.GenericApplicationContext@91a1005: startup date [Mon Jul 31 20:05:16 IST 2017]; root of context hierarchy
+2017-07-31 20:05:17 INFO  AutowiredAnnotationBeanPostProcessor:155 - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2017-07-31 20:05:17 INFO  StartingSteps:128 - ***************************************************************************
+2017-07-31 20:05:17 INFO  StartingSteps:128 - Executing Scenario : I should be able to post a status message right after login to Facebook account
+2017-07-31 20:05:17 INFO  StartingSteps:128 - ***************************************************************************
+2017-07-31 20:05:21 INFO  SessionContextManager:256 - 
+Attribute set KEY : [execution_type] 
+ VALUE : [browser]
+2017-07-31 20:05:26 INFO  BasePageObject:52 - Entered the user name
+2017-07-31 20:05:26 INFO  BasePageObject:52 - Entered the password
+2017-07-31 20:05:32 INFO  BasePageObject:52 - Clicked on Log in button
+2017-07-31 20:05:34 INFO  BasePageObject:52 - Entered the status text as 
+2017-07-31 20:05:36 INFO  BasePageObject:52 - Click on Post button

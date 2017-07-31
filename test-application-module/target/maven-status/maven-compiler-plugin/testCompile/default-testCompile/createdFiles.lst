@@ -1,0 +1,15 @@
+pages/walletHub/ReviewActionPage.class
+steps/BaseSteps.class
+pages/facebook/HomePage.class
+pages/uiLocators/facebook/LoginPageLoc.class
+pages/uiLocators/ILocator.class
+pages/uiLocators/walletHub/ReviewActionPageLoc.class
+pages/uiLocators/walletHub/ProfilePageLoc.class
+pages/facebook/LoginPage.class
+pages/uiLocators/facebook/HomePageLoc.class
+steps/StartingSteps.class
+steps/walletHubSteps/WalletHubSteps.class
+steps/walletHubSteps/FacebookSteps.class
+steps/RunCukesTest.class
+pages/walletHub/ProfilePage.class
+pages/uiLocators/DashboardPageLoc.class
