@@ -37,8 +37,6 @@
         <spring.version>4.3.2.RELEASE</spring.version>
 
 
-        <allure.version>1.6.1</allure.version>
-        <aspectj.version>1.8.5</aspectj.version>
         <allure.jvm.adaptopr.version>1.6.2</allure.jvm.adaptopr.version>
         <cucumber.version>1.2.5</cucumber.version>
 
@@ -337,13 +335,6 @@
                     <artifactId>maven-surefire-plugin</artifactId>
                     <version>2.19.1</version>
                     <configuration>
-                        <argLine>-Xmx1024m -XX:MaxPermSize=256m</argLine>
-                        <testFailureIgnore>false</testFailureIgnore>
-                        <argLine>
-                            -javaagent:${settings.localRepository}/org/aspectj/aspectjweaver/${aspectj.version}/aspectjweaver-${aspectj.version}.jar
-                            <!-- -Dcucumber.options="&#45;&#45;plugin ru.yandex.qatools.allure.cucumberjvm.AllureReporter"-->
-                        </argLine>
-
                         <systemPropertyVariables>
                             <browser>${browser}</browser>
                             <screenShotDirectory>${project.build.directory}/report/screenshots</screenShotDirectory>
